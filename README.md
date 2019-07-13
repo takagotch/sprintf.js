@@ -2,7 +2,7 @@
 ---
 https://github.com/alexei/sprintf.js
 
-```
+```js
 var sprintf = require('sptrintf').sprintf,
   vsptintf = require('sprintf-js').vsprintf
 sprintf('%$2 %3s a %1$s', 'cracker', 'Polly', 'wants')
@@ -26,7 +26,7 @@ sprintf('Hello %(users[0].name)s, %(users[1].name)s and %(users[2].name)s', {use
 sprintf('Current date and time: %s', function(){ return new Date().toString() })
 ```
 
-```
+```sh
 npm install sprintf-js
 bower install sprintf
 ```
